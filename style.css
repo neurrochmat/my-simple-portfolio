@@ -101,3 +101,18 @@ section {
 .keyboard-box:hover .keyboard-img {
   transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
 }
+
+/* Membuat ukuran gambar project seragam */
+.project-img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  /* background: #f8f9fa; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img-top {
+  overflow: visible;
+}
